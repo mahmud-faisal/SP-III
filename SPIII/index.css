@@ -1,0 +1,58 @@
+
+:root {
+    --sky_blue: #1e90ff;
+    --white: #ffffff;
+    --pr_green: #3CB371;
+    --pr_blue: #007FFF;
+
+
+    --sd_orange: #FFA500;
+    --sd_white: #FFFFFF;
+    --sd_gray: #808080;
+  }
+*{box-sizing:border-box};
+.bg-pr-blue{
+    background-color: var(--pr_blue);
+}
+.pr-btn-green{
+    background-color: var(--pr_green);
+}
+.pr-icon{
+    color:var(--sd_orange);
+}
+.pr-text-gray{
+    color:var(--sd_gray);
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#header span{
+font-size:3rem;
+}
+
+.nav{
+   flex:8; 
+}
+.top-left,.top-right{
+    flex:1;
+}
+nav>ul>li{
+    padding:0.5rem;
+    border-radius:1rem;
+    
+}
+
+.nav>ul>li:hover{
+   background-color: var(--sd_orange);
+}
+
+.nav>ul>li>a{
+    color:var(--sd_gray);
+}
