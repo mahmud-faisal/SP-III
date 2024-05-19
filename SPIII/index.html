@@ -13,38 +13,125 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container-md">
-        <header id="header" class="d-flex justify-content-between p-4 bg-pr-blue">
-        <div class="top-left pr-icon">
-            <span class="material-symbols-outlined">directions_bike</span>
-        </div>
-        <nav class="nav mt-4 d-none d-md-block">
-            <ul class="d-flex flex-column p-3 bg-white flex-md-row justify-content-between">
-                <li><a href="#">PRICING</a></li>
-                <li><a href="#">MAP</a></li>
-                <li><a href="#">HOW IT WORKS</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
-            </ul>
-        </nav>
-        <div class="top-right pr-icon">
-            <span class="material-symbols-outlined">menu</span>
-        </div>
+    <div class="wrapper">
+        <header id="header" class="bg-pr-blue">
+            <div class="container-md d-flex justify-content-between p-4">
+                <div class="top-left pr-icon">
+                    <span class="material-symbols-outlined">directions_bike</span>
+                </div>
+                <div class="mt-4 d-none d-md-block">
+                    <ul class="d-flex flex-column p-3 bg-white flex-md-row justify-content-between">
+                        <li class="px-4"><a href="#">PRICING</a></li>
+                        <li class="px-4"><a href="#">MAP</a></li>
+                        <li class="px-4"><a href="#">HOW IT WORKS</a></li>
+                        <li class="px-4"><a href="#">ABOUT</a></li>
+                        <li class="px-4"><a href="#">SHOP</a></li>
+                    </ul>
+                </div>
+                <div class="top-right pr-icon">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+            </div>
         </header>
+
+        <section id="banner" class="">
+            <div class="imageHolder">
+                <img src="/Image/banner_riding.jpg" alt="banner" class="img-fluid w-100">
+            </div>
+
+            <div class="container-md banner-content text-white text-center">
+                <h2>May is Bike Month</h2>
+                <h4>Get a 30-Day Pass for just $1 with code BIKEMONTH24, 5/1-5/31</h4>
+            </div>
+        </section>
+        
+        
+            
+        <section id="procedure" class="py-4">
+            <div class="container-md">
+                <h2 class="procedureHead mx-auto d-flex justify-content-around">How It Works</h2>
+            <div class="steps d-flex justify-content-between">
+                <div class="step">
+                    <div class="step-img">
+                        <img src="/Image/release-unlock.png" alt="">
+                    </div>
+                    <div class="step-title">
+                        <h3>Release It</h3>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-img">
+                        <img src="/Image/ride.png" alt="">
+                    </div>
+                    <div class="step-title">
+                        <h3>Ride It</h3>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-img">
+                        <img src="/Image/return-lock.png" alt="">
+                    </div>
+                    <div class="step-title">
+                        <h3>Return It</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="d-flex justify-content-around py-5">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U0ZCnxDmdLk?si=qw4py1UrZZS5ikMa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <div class="container-md">
+            <section id="choosePass" class="py-4">
+                <h2 class="procedureHead mx-auto d-flex justify-content-around">Choose Your Pass</h2>
+            <div class="steps d-flex justify-content-between py-5">
+                <div class="price-item p-4">
+                    <div class="pricing">
+                        <h3>1 Ride</h3>
+                        <h5>$1.75/30 minutes</h5>
+                    </div>
+                    <div class="sign-up mt-5 d-flex mb-3 justify-content-around">
+                        <a href="#" class="px-4 py-2 su-button text-white">Sign Up</a>
+                    </div>
+                </div>
+                <div class="price-item p-4">
+                    <div class="pricing">
+                        <h3>1 Ride</h3>
+                        <h5>$1.75/30 minutes</h5>
+                    </div>
+                    <div class="sign-up mt-5 d-flex mb-3 justify-content-around">
+                        <a href="#" class="px-4 py-2 su-button text-white">Sign Up</a>
+                    </div>
+                </div>
+                <div class="price-item p-4">
+                    <div class="pricing">
+                        <h3>1 Ride</h3>
+                        <h5>$1.75/30 minutes</h5>
+                    </div>
+                    <div class="sign-up mt-5 d-flex mb-3 justify-content-around">
+                        <a href="#" class="px-4 py-2 su-button text-white">Sign Up</a>
+                    </div>
+                </div>
+                <div class="price-item p-4">
+                    <div class="pricing">
+                        <h3>1 Ride</h3>
+                        <h5>$1.75/30 minutes</h5>
+                    </div>
+                    <div class="sign-up mt-5 d-flex mb-3 justify-content-around">
+                        <a href="#" class="px-4 py-2 su-button text-white">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
+        
+
     </div>
-    
+
     <!-- CDNJS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- CDN FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-   
-    <!-- Background: White (#FFFFFF)
-    Headers and Navigation Bar: Blue (#007FFF)
-    Buttons and Call-to-Action Elements: Green (#3CB371)
-    Accent Elements (e.g., icons, links): Orange (#FFA500)
-    Text: Gray (#808080) for secondary text and Black for primary text to ensure readability -->
 </body>
-
-
 </html>
