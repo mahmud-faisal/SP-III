@@ -39,9 +39,8 @@ a {
 #header {
     background-color: var(--pr_blue);
 }
-
-.top-left, .top-right {
-    flex: 1;
+.nav-itm li a{
+    color: white;
 }
 
 nav > ul > li {
@@ -56,6 +55,8 @@ nav > ul > li {
 .nav > ul > li > a {
     color: var(--sd_gray);
 }
+
+
 
 /* Banner */
 #banner {
@@ -89,8 +90,6 @@ nav > ul > li {
     background-color: #7bf43b;
     border-radius: 0.5rem;
 }
-
-
 
 .su-button{
     background-color:#1e90ff;
