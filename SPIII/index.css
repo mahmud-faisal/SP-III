@@ -103,8 +103,9 @@ nav > ul > li {
     padding: 20px 0;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .footer div {
@@ -167,6 +168,10 @@ nav > ul > li {
     max-width: 80px;
     margin: 10px;
 }
+.foot{
+    text-align: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
